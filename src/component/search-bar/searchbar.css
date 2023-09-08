@@ -1,0 +1,149 @@
+/*may need to move to main */
+.header_searchbar_container {
+    display: flex;
+    height: 70px;
+    padding: 0px 16px 30px 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+
+
+    background: var(--cubseed-white, #FFF); /*declare variables with global scope*/
+    box-shadow: 0px 2px 8px 0px rgba(3, 101, 107, 0.20);
+}
+
+
+.searchbar_wrapper {
+    display: flex;
+    padding: 0px 200px 0px 340px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    
+    border-radius: 20px;
+}
+
+
+.dropdown_container {
+    display: flex;
+    padding: var(--dimentions-d-0, 0px) var(--dimentions-d-4, 16px);
+    gap: var(--dimentions-d-2, 8px);
+    width: 147px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    border-radius: 28px var(--dimentions-d-0, 0px) var(--dimentions-d-0, 0px) var(--dimentions-d-0, 0px);
+    background: var(--cubseed-ref-primary-primary-40, #51A1A6);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.dropdown_container p {
+    color: var(--cubseed-white, #FFF);
+    text-align: center;
+
+    
+}
+
+.dropdown_container button {
+    margin: 0;
+    padding: 0;
+    transform: rotate(0deg);
+   
+    border: none;
+    background: inherit;
+}
+
+.dropdown_arrow_back_ios {
+    width: 24px;
+    height: 24px;
+   
+    /* transform: rotate(90deg);*/  /* transform when pressed */
+} /* consider image tag as selector child of parent dropdown-container */
+
+/* .dropdown_menu {
+    display: flex;
+    align-items: flex-start;
+
+    position: absolute;
+    right: -636px;
+    bottom: -409px;
+}
+
+.dropdown_submenu {
+    display: flex;
+    width: 636px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+
+    background: var(--cubseed-white, #FFF);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+} */
+
+#product_search {
+    display: flex;
+    padding: 0px 10px;
+    margin: 0;
+    width: 400px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+
+
+    border-radius: 0px 20px 20px 0px;
+    border-top: 1px solid var(--cubseed-ref-primary-primary-60, #9CCCCF);
+    border-right: 1px solid var(--cubseed-ref-primary-primary-60, #9CCCCF);
+    border-bottom: 1px solid var(--cubseed-ref-primary-primary-60, #9CCCCF);
+    background: var(--cubseed-ref-neutral-neutral-100, #FFF);
+}
+
+
+/* #product_search {
+    color: var(--cubseed-ref-neutral-neutral-40, #6A7370);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 80% 
+} */
+
+input[id="product_search_image"] {
+    line-height: 2ex;
+}
+
+#product_search_image {
+    width: 25.383px;
+    height: 30px;
+}
+
+.dropdown_menu {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    background-color: #059b9bd8;
+    width: 167px;
+    height: 0;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    right: 531px;
+    bottom: 650px;
+
+    
+}
+
+.dropdown_menu li {
+    padding: 5px;
+    justify-content: space-between;
+}

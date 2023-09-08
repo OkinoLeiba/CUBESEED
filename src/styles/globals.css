@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+:root {
+  --primary: #03656B;
+  --primary-10: #03656B;
+  --primary-20: #27797E;
+  --primary-30: #3A868A;
+  --primary-40: #51A1A6;
+  --primary-50: #69B7BC;
+  --primary-60: #9CCCCF;
+  --primary-70: #BEE8E5;
+  --primary-80: #CFEEEF;
+  --primary-90: #EDFCFD;
+  --primary-99: #F9FFFF;
+  --primary-100: #FFF;
+
+  --secondary: #FFB84C;
+  --secondary-10: #FFB84C;
+  --secondary-20: #E9A744;
+  --secondary-30: #C38E3B;
+  --secondary-40: #A47939;
+  --secondary-50: #886634;
+  --secondary-60: #C2A67A;
+  --secondary-70: #DDBE8E;
+  --secondary-80: #ECD6B6;
+  --secondary-90: #FEEFD9;
+  --secondary-99: #FFFCF8;
+  --secondary-100: #FFF;
+
+  --tertiary: #45DFA9;
+  --tertiary-10: #45DFA9;
+  --tertiary-20: #38D29C;
+  --tertiary-30: #3FC294;
+  --tertiary-40: #42AD87;
+  --tertiary-50: #57A188;
+  --tertiary-60: #6F9E8E;
+  --tertiary-70: #93B8AB;
+  --tertiary-80: #BED6CD;
+  --tertiary-90: #E9F2F2;
+  --tertiary-99: #FAFFFD;
+  --tertiary-100: #FFF;
+
+  --error: #410E0B;
+  --error-10: #410E0B;
+  --error-20: #601410;
+  --error-30: #8C1D18;
+  --error-40: #B3261E;
+  --error-50: #DC362E;
+  --error-60: #E46962;
+  --error-70: #EC928E;
+  --error-80: #F2B8B5;
+  --error-90: #F9DEDC;
+  --error-99: #FFFBF9;
+  --error-100: #FFF;
+
+  --neutral: ##1E2724;
+  --neutral-10: #1E2724;
+  --neutral-20: #2F3734;
+  --neutral-30: #1E2724;
+  --neutral-40: #5D706A;
+  --neutral-50: #6E7B77;
+  --neutral-60: #8A9D98;
+  --neutral-70: #BACBC6;
+  --neutral-80: #D0DAD7;
+  --neutral-90: #EBF3F1;
+  --neutral-99: #FCFFFE;
+  --neutral-100: #FFFFFF;
+  
+
+  --text-color: #002629;
+  --white: white;
+  --black: black;
+  --red: red;
+  --base-font-size: 16;
+  --base-font-weight: 500;
+  --base-line-height: 36;
+
+}
+
+:root[theme="dark"] {
+ /* copy color variables when ready */
+ filter: invert(1) brightness(0.6)
+}
+
+body {
+  font-family: "Ubuntu";
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: "Ubuntu";
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  all: unset;
+}
+
+p {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Inter;
+  font-size: var(--base-font-size)px;
+  font-style: normal;
+  font-weight: var(--base-font-weight);
+  line-height: var(--base-line-height)px; /* 225% */
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 10px;
+}
+
+input {
+  border: 1px solid var(--tertiary);
+  border-radius: 6px;
+  position: relative;
+  width: 100%;
+  margin: 10px;
+  width: 100%;
+  margin: 10px;
+  line-height: 6ex;
+  outline: var(--tertiary);
+}
+
+label {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  background-color: var(--white);
+  padding: 0 5px;
+}/*# sourceMappingURL=globals.css.map */

@@ -1,0 +1,10 @@
+h1 {
+    color: var(--cubseed-ref-primary-primary-0, #002629);
+
+    /* Heading size */
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 181.818% */
+}

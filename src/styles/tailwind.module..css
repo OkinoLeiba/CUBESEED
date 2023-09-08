@@ -1,0 +1,88 @@
+/* remain file name when donw */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* font size needs to be done 09/03/2023 */
+    --clr-primary: #03656B;
+    --clr-primary-10: #03656B;
+    --clr-primary-20: #27797E;
+    --clr-primary-30: #3A868A;
+    --clr-primary-40: #51A1A6;
+    --clr-primary-50: #69B7BC;
+    --clr-primary-60: #9CCCCF;
+    --clr-primary-70: #BEE8E5;
+    --clr-primary-80: #CFEEEF;
+    --clr-primary-90: #EDFCFD;
+    --clr-primary-99: #F9FFFF;
+    --clr-primary-100: #FFF;
+
+
+    --clr-secondary: #FFB84C;
+    --clr-secondary-10: #FFB84C;
+    --clr-secondary-20: #E9A744;
+    --clr-secondary-30: #C38E3B;
+    --clr-secondary-40: #A47939;
+    --clr-secondary-50: #886634;
+    --clr-secondary-60: #C2A67A;
+    --clr-secondary-70: #DDBE8E;
+    --clr-secondary-80: #ECD6B6;
+    --clr-secondary-90: #FEEFD9;
+    --clr-secondary-99: #FFFCF8;
+    --clr-secondary-100: #FFF;
+  
+    --clr-tertiary: #45DFA9;
+    --clr-tertiary-10: #45DFA9;
+    --clr-tertiary-20: #38D29C;
+    --clr-tertiary-30: #3FC294;
+    --clr-tertiary-40: #42AD87;
+    --clr-tertiary-50: #57A188;
+    --clr-tertiary-60: #6F9E8E;
+    --clr-tertiary-70: #93B8AB;
+    --clr-tertiary-80: #BED6CD;
+    --clr-tertiary-90: #E9F2F2;
+    --clr-tertiary-99: #FAFFFD;
+    --clr-tertiary-100: #FFF;
+
+    --clr-error: #410E0B;
+    --clr-error-10: #410E0B;
+    --clr-error-20: #601410;
+    --clr-error-30: #8C1D18;
+    --clr-error-40: #B3261E;
+    --clr-error-50: #DC362E;
+    --clr-error-60: #E46962;
+    --clr-error-70: #EC928E;
+    --clr-error-80: #F2B8B5;
+    --clr-error-90: #F9DEDC;
+    --clr-error-99: #FFFBF9;
+    --clr-error-100: #FFF;
+
+    --clr-neutral: ##1E2724;
+    --clr-neutral-10: #1E2724;
+    --clr-neutral-20: #2F3734;
+    --clr-neutral-30: #1E2724;
+    --clr-neutral-40: #5D706A;
+    --clr-neutral-50: #6E7B77;
+    --clr-neutral-60: #8A9D98;
+    --clr-neutral-70: #BACBC6;
+    --clr-neutral-80: #D0DAD7;
+    --clr-neutral-90: #EBF3F1;
+    --clr-neutral-99: #FCFFFE;
+    --clr-neutral-100: #FFFFFF;
+
+    --clr-accent: #886634;
+     
+    --text-color: #002629;
+    --white: white;
+    --black: black;
+    --red: red;
+    --base-font-size: 16;
+  }
+
+  :root[theme="dark"] {
+    /* copy color variables when ready */
+    filter: invert(1) brightness(0.6);
+  }
+}

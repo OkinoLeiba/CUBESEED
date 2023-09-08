@@ -1,0 +1,69 @@
+
+/* are you going to custom components or templates in tailwindcss...for whole pages or this single page ??? may depend on the scope of the larger project and design systems */
+
+/* custom configuration path?? */
+/*@config "./tailwind.config.js";*/
+
+ 
+/* creating custom themes in the tailwind.config.js file will be better for design system, can customize further as needed */
+
+/* template partials for more complex components built with simple tailwindcss components @apply*/
+.nav_container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white; /*color may need to be changed*/
+    display: flex;
+    padding: 0px 65px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.image_container {
+    height: auto;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.cubeseed_logo {
+    width: 203px;
+    height: 46px;
+    flex-shrink: 0;
+}
+
+.profile_container {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.shoppingbag_icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 0.2em;
+}
+
+.homelogin_icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 0.2em;
+}
+
+
+.profile_login_text {
+    color: #002629;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 225% */
+}
+
+

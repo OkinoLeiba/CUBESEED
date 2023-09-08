@@ -1,0 +1,85 @@
+
+
+
+.side-navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  padding: 82px 12px 12px 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  background: #F0F6F6;
+  position: fixed;
+  height: 100vh;
+  flex-shrink: inherit;
+}
+
+
+
+.logo-icon {
+  width: 56px;
+  height: 56px;
+
+  position: absolute;
+  left: 12px;
+  top: 12px; 
+}
+
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  flex: 1 0 0;  /*revise for setting icon */
+  align-self: stretch;
+} 
+
+.line-break {
+  display: flex;
+  align-self: stretch;
+  border: 1px solid #D0DAD7;
+  margin: 10px 0px;; 
+  
+}
+
+.home-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.list-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.payment-icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+.star-icon {
+  /* temporary will need to hover */
+  border-radius: 25px;
+  background: #080d00; 
+  width: 20px;
+  height: 20px;
+}
+
+
+.home-user {
+  width: 24px;
+  height: 24px;
+}
+
+
+.setting-icon {
+  width: 22px;
+  height: 22px;
+  
+  margin-top: 160px;
+}

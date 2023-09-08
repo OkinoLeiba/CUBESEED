@@ -1,0 +1,88 @@
+.main_home {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 70px 50px;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+
+  
+}
+
+
+
+.main_container {
+    display: flex;
+    /* width: 1079px; */
+    width: 486px;
+    padding: 6px 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+    gap: 10px;
+    align-content: center;
+}
+
+
+.keyboardarrow_icon {
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.home_main_image {
+    display: flex;
+    height: 339px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+
+    border-radius: 12px;
+    
+}
+
+.home_textgroup {
+    width: 1em;
+    margin: 0 10px;
+
+    background: var(--secondary-90, #FEEFD9);
+    
+    /* background: lightgray 50% / cover no-repeat; */
+    /* background-color: rgb(255 255 255 / 0.3); */
+    -webkit-backdrop-filter:blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.home_textgroup p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    align-self: stretch; 
+}
+
+.home_main_ss {
+    color: var(--error-50);
+
+    font-size: calc(var(--base-font-size)+41px);
+    font-weight: calc(var(--base-font-weight)+200);
+    line-height: calc(var(--base-line-height)*1.8px) /* 112.281% */
+}
+
+.home_main_discount {
+    color: var(--error-60);
+
+    font-size: calc(var(--base-font-size)+29px);
+    font-weight: calc(var(--base-font-weight)+200);
+    line-height: calc(var(--base-line-height)+18px) /* 115.556% */
+}
+
+.home_main_shopnow {
+    color: var(--cubseed-ref-primary-primary-0, #002629);
+
+    font-size: calc(var(--base-font-size)+20px);
+    font-weight: calc(var(--base-font-weight)+200);
+    line-height: calc(var(--base-line-height)+16px)  /* 111.111% */
+}

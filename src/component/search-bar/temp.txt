@@ -1,0 +1,75 @@
+
+            <section className="cat-sec">
+                <div className="cat-container">
+                <h1>Shop by Categories</h1>
+                <Carousel2 />
+                </div>
+
+                <div className="center-carousel">
+                    <Carousel2 />
+                </div>
+            </section>
+
+            <section className="pop_product-sec">
+                <div className="product-container">
+                    <h1>Popular Product</h1>
+                    <Carousel2 />
+                    {/* build generic template for card and customize for homepage or specific card for homepage */}
+                    {/* within card map image, rating, heart, and text to each other */}
+                </div>
+            </section>
+
+            <section className="feat_product-sec">
+                <div className="feat_product-container">
+                    <h1>Featured Products</h1>
+                    <Carousel2 />
+                    {/* build generic template for card and customize for homepage or specific card for homepage */}
+                    {/* within card map image, rating, heart, and text to each other */}
+                </div>
+            </section>
+
+            <section className="feat_cat-product-sec">
+                <div className="feat_cat-container">
+                    <h1>Featured Categories</h1>
+                    <Carousel2 />
+                    {/* build generic template for card and customize for homepage or specific card for homepage */}
+                    {/* within card map image, rating, heart, and text to each other */}
+                </div>
+            </section>
+
+            <section className="feat_farm-sec">
+                <div className="feat_farm-container">
+                    <h1>Featured Farms</h1>
+                    <Carousel2 />
+                    {/* build generic template for card and customize for homepage or specific card for homepage */}
+                    {/* within card map image, rating, heart, and text to each other */}
+                </div>
+            </section>
+
+            <section className="benefits-sec">
+                <div className="benefits-container">
+                    <div className="benefits-frame">
+                        <Image />
+                        <p></p>
+                    </div>   
+                    <div className="benefits-frame">
+                        <Image />
+                        <p></p>
+                    </div>   
+                    <div className="benefits-frame">
+                        <Image />
+                        <p></p>
+                    </div>    
+                </div>
+            </section>
+
+            <section className="cubeseed_user-sec">
+                <div className="cubeseed_user-container">
+                    <h1>What CUBESEED Users are Saying</h1>
+                    <Carousel2 />
+                    {/* build generic template for card and customize for homepage or specific card for homepage */}
+                    {/* within card map image, rating, text to each other */}
+                </div>
+            </section>
+
+            <Footer />

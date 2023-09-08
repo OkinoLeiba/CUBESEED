@@ -20,7 +20,7 @@ const carouselItems = [
 
 // research carousel for mobile device
 // consider creating card for mobile and card for desktop
-const Carousel = ({item}) => {
+const Carousel= () => {
 
     const {ref, previous, next, setCurrent, reset} = useCarousel();
 
